@@ -1,0 +1,1 @@
+java -Xdebug -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005 -jar spring-docker-remote-debug.jar
